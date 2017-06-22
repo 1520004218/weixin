@@ -1,0 +1,52 @@
+/* admin.wxss */
+/**index.wxss**/
+
+.search-box {
+  /*background-color: #eee;*/
+  padding:5rpx 5rpx 5rpx 5rpx;
+}
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 0 15rpx;
+  font-size: 13px;
+  box-shadow: 0px 1px 10px -3px #999;
+  
+}
+video {
+  width: 100%;
+  height: 180px;
+}
+.detail{
+  margin: 10rpx 20rpx;
+  /*padding: 0 10rpx;*/
+  font-size: 29rpx;
+  color: #999;
+  letter-spacing: 5rpx;
+  font-style: italic;
+  line-height: 50rpx;
+}
+.detail text {
+  text-decoration: underline;
+  padding: 3rpx;
+}
+button {
+  width: 100%;
+}
+.btn-area {
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.danmuText {
+  width: 100%;
+  height: 130rpx;
+  box-sizing: border-box;
+  border: solid 1rpx #ccc;
+  margin:10rpx 0;
+  padding:10rpx 0 10rpx 10rpx;
+  border-radius: 10rpx;
+  font-size: 33rpx;
+  color: orangered;
+}

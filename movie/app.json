@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/rank/rank",
+    "pages/class/class",
+    "pages/admin/admin"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Wei视",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "true",
+    "disableScroll": "true"
+  },
+  "tabBar": {
+    "backgroundColor": "#000",
+    "selectedColor": "#42C432",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/defaultIndex.png",
+        "selectedIconPath": "images/currentIndex.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行",
+        "iconPath": "images/defaultRank.png",
+        "selectedIconPath": "images/currentRank.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "images/defaultClass.png",
+        "selectedIconPath": "images/currentClass.png"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "text": "我的",
+        "iconPath": "images/defaultAdmin.png",
+        "selectedIconPath": "images/currentAdmin.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

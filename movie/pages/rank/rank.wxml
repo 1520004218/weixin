@@ -1,0 +1,26 @@
+<view class="container">
+<view class="rankListWrap" wx:for="{{detail}}" wx:key="unique">
+  <view class="number">
+    <view class="">
+      <text>{{index + 1}}</text>
+    </view>
+  </view>
+  <view class="rankList">
+     <!--<image  class="img" mode="widthFix" src="{{item.images.large}}"></image>-->
+     <view class="img" style="background-image: url({{item.images.large}}); background-repeat: no-repeat; background-size: cover;"></view>
+     <view class="moveDetail" >
+        <text class="moveName">{{item.title}}</text>
+        <view class="moveGrade">
+          <view class="grade">豆瓣评分：<text>{{item.rating.average}}</text></view>
+          <view class="officeClerk">
+            <text>导演： <text>{{item.directors[0].name}}</text></text>
+          </view>
+          <view class="officeClerk">
+            <text>演员： <text wx:for="{{item.casts}}" wx:key="unique">{{item.name+"/"}}</text></text>
+          </view>
+        </view>
+     </view>
+  </view>
+</view>
+  
+</view>

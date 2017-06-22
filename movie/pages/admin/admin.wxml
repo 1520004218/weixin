@@ -1,0 +1,19 @@
+<!--admin.wxml-->
+
+<viwe class="container">
+  <view class="search-box">
+    <!--<input type="search" class="search" placeholder="Search..." />-->
+  </view>
+  <view class="section tc">
+    <video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <view class="detail">
+      <text>{{content}}</text>
+    </view>
+    <view class="btn-area">
+      <textarea  class="danmuText" bindblur="bindInputBlur" placeholder="弹幕往这里写!!!"/>
+      <!--<button type="primary" bindtap="bindButtonTap">获取视频</button>-->
+      
+      <button type="warn" bindtap="bindSendDanmu">发送弹幕</button>
+    </view>
+  </view>
+</viwe>

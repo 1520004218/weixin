@@ -1,0 +1,77 @@
+/* rank.wxss */
+.container{
+  display: flex;
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;*/
+  align-items: center;
+  padding: 40rpx 40rpx 0 40rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  /*justify-content: center;*/
+}
+.rankListWrap {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.number {
+  display: flex;
+  align-items: center;
+  margin: 55rpx 0;
+}
+.number view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  height: 1px;
+  background-color: #ccc;
+}
+.number view text {
+  padding: 0 6px;
+  background-color: #fff;
+  color: #ccc;
+}
+.rankList {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40rpx;
+  box-shadow: 3px 4px 15px -4px #999;
+  border-radius: 1px;
+}
+.img {
+  flex: none;
+  width: 65px;
+  height: 100px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.moveDetail {
+  height: 100px;
+  vertical-align: middle;
+}
+.moveDetail .moveName {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #333;
+}
+.moveDetail .moveGrade {
+  flex:none;
+  height: 75px;
+  overflow: hidden;
+}
+.moveDetail .moveGrade .grade {
+  font-style: italic;
+  font-size: 27rpx;
+  margin-bottom: 3px;
+  color: #42C432;
+}
+.moveDetail .officeClerk {
+  margin-top: 3px;
+  font-size: 30rpx;
+  color: #999;
+}
