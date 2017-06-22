@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" auto-focus placeholder="请输入姓名" bindinput="bindKeyInput" data-key="name"/>
+        </view>
+      </view>
+    </view>
+    
+    <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="11" type="number" placeholder="请输入手机号码" bindinput="bindKeyInput" data-key="phone"/>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label" style="color: #888;">{{ pickerTitle }}</view>
+        </view>
+        <view class="weui-cell__bd">
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="weui-input">{{array[index]}}</view>
+          </picker>
+        </view>
+      </view>
+    </view>
+
+    <view class="page-section">
+      <view class="textarea-wrp">
+        <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请输入留言内容" bindinput="bindKeyInput" data-key="content" />
+      </view>
+    </view>
+
+    <view class="btn-area">
+      <button type="primary" bindtap="submit" style="background: #1296db;">提交</button>
+    </view>
+  </view>
+</view>

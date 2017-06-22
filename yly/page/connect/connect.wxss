@@ -1,0 +1,38 @@
+.container{
+  background-color: #fff;
+}
+.logo{
+  width: 50%;
+  height: 300rpx;
+  display: block;
+  margin: 20rpx auto;
+}
+.connect{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.connect .item{
+  position: relative;
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #f5f5f5;
+}
+.connect .item image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+  position: relative;
+  top: 30rpx;
+}
+.connect .item text{
+  color: #666;
+}
+.connect .item button{
+  font-size: 26rpx;
+}
+.connect .item .icon-right{
+  position: absolute;
+  top: 30rpx;
+  right: 0;
+}

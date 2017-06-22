@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="page-body">
+    <image class="logo" src="../../image/logo.jpeg" mode="aspectFit"></image>
+
+    <view class="connect">
+      <view class="item" bindtap="address">
+        <image src="../../image/icon-address.png" mode="aspectFit"></image>
+        <text>北京市昌平区郑平路宏福科技园综合楼6层</text>
+        <image class="icon-right" src="../../image/icon-right.png" mode="aspectFit"></image>
+      </view>
+
+      <view class="item" bindtap="phone">
+        <image src="../../image/icon-phone.png" mode="aspectFit"></image>
+        <text>{{ phone }}</text>
+        <image class="icon-right" src="../../image/icon-right.png" mode="aspectFit"></image>
+      </view>
+
+      <view class="item">
+        <image src="../../image/icon-wechat.png" mode="aspectFit"></image>
+        <text>野狼营IT教育</text>
+        <button style="background-color: #1296db;float: right;margin-right: 0;" type="primary" open-type="contact" hover-class="other-button-hover"> 立即咨询 </button>
+      </view>
+    </view>
+  </view>
+</view>

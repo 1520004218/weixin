@@ -1,0 +1,165 @@
+<view class="container">
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item" style="background-image: url({{item}})"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+
+
+
+
+
+    <view class="classify">
+      <view class="item">
+        <image src="../../image/icon-person.png" mode="aspectFit"></image>
+        <text>复合人才</text>
+      </view>
+
+      <view class="item">
+        <image src="../../image/icon-h5.png" mode="aspectFit"></image>
+        <text>HTML5</text>
+      </view>
+
+      <view class="item">
+        <image src="../../image/icon-java.png" mode="aspectFit"></image>
+        <text>JAVA</text>
+      </view>
+
+      <view class="item">
+        <image src="../../image/icon-go.png" mode="aspectFit"></image>
+        <text>GoLang</text>
+      </view>
+    </view>
+
+
+    <view class="teacher section">
+      <view class="section-title">师资团队</view>
+      <view class="content">
+        <view class="item">
+          <image src="http://ylyedu.com/uploads/images/teacher/1494933569591ae041f317b.png" mode="aspectFit"></image>
+          <view class="teacher-info">
+            <view class="name">
+              YUAN/袁林岗
+              <text class="post">院长</text>
+            </view>
+            <view class="intro">近10年的软件开发和项目管理经验，横跨前后台开发，风趣幽默的讲课风格让你收获的不止是技能。</view>
+          </view>
+        </view>
+
+        <view class="item">
+          <image src="http://ylyedu.com/uploads/images/teacher/1494933614591ae06eb7355.png" mode="aspectFit"></image>
+          <view class="teacher-info">
+            <view class="name">
+              YUAN/袁强
+              <text class="post">教学总监</text>
+            </view>
+            <view class="intro">10多年WEB相关开发经验，多年教学经验。慕课网特约高级讲师，开发过日均千万的PV项目，同时负责过多个web端与移动端的项目开发。</view>
+          </view>
+        </view>
+
+        <view class="item">
+          <image src="http://ylyedu.com/uploads/images/teacher/14952716945920090e2c5b1.png" mode="aspectFit"></image>
+          <view class="teacher-info">
+            <view class="name">
+              HAN/韩杰
+              <text class="post">特级前端讲师</text>
+            </view>
+            <view class="intro">在教学中经常拓展实际工作中经验，分享并传授绐学生，能让学生很快的将所学知识应用到实际项目中。</view>
+          </view>
+        </view>
+
+        <view class="item">
+          <image src="http://ylyedu.com/uploads/images/teacher/1494933644591ae08c207ae.png" mode="aspectFit"></image>
+          <view class="teacher-info">
+            <view class="name">
+              SONG/宋佳
+              <text class="post">高级讲师</text>
+            </view>
+            <view class="intro">出于对互联网的喜爱，加入了互联网行业，曾先后任职于多家大中型企业，具有丰富的H5前端项目开发经验，曾参与某数据通信公司主要业务的开发。</view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+
+
+    <view class="star section">
+      <view class="section-title">就业明星</view>
+      <view class="content">
+
+        <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(http://img2.imgtn.bdimg.com/it/u=2525947791,732531468&fm=214&gp=0.jpg)"></view>
+            <view class="name">华东</view>
+            <view class="money">15k</view>
+            <view class="company">赐云网络</view>
+          </view>
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(http://www.lagou.com/image1/M00/00/D6/CgYXBlTUYNiAFp6rAAJ5pMD-_nc580.png)"></view>
+            <view class="name">吴昊天</view>
+            <view class="money">10k</view>
+            <view class="company">广东亿迅</view>
+          </view>
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(http://runjs.cn/uploads/user_space/221/7721/7721_100.jpg)"></view>
+            <view class="name">陈鹏海</view>
+            <view class="money">16k</view>
+            <view class="company">上海天楹</view>
+          </view>
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(http://img3.imgtn.bdimg.com/it/u=1778463259,38824634&fm=26&gp=0.jpg)"></view>
+            <view class="name">孙健</view>
+            <view class="money">11k</view>
+            <view class="company">云充吧</view>
+          </view>
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(http://image.7rdao.com/7rdao.com/userimage/big/7de416a20172af.jpg)"></view>
+            <view class="name">梁文义</view>
+            <view class="money">12k</view>
+            <view class="company">新邑网络</view>
+          </view>
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(http://www.feizl.com/upload2007/2012_08/1208040121260021.jpg)"></view>
+            <view class="name">刘兴龙</view>
+            <view class="money">10.5k</view>
+            <view class="company">大华人和</view>
+          </view>
+          <view class="scroll-view-item_H">
+            <view class="headimg" style="background-image: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1002755495,4255896793&fm=26&gp=0.jpg)"></view>
+            <view class="name">何建新</view>
+            <view class="money">11k</view>
+            <view class="company">福富软件</view>
+          </view>
+        </scroll-view>
+
+      </view>
+    </view>
+
+
+
+
+
+
+    <view class="environment section">
+      <view class="section-title">校园环境</view>
+      <view class="content">
+        <view class="item" bindtap="environment" data-item="{{item}}" wx:for="{{environment}}" style="background-image: url({{item}})"></view>
+
+      </view>
+    </view>
+
+  </view>
+
+
+
+</view>
+
+

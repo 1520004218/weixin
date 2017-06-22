@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="page-body">
+    <view class="course-item" >
+      <image src="../../image/bg-person.jpeg" mode="aspectFit"></image>
+      <view class="btn">
+        <navigator>
+          <button open-type="contact">课程详情</button>
+        </navigator>
+        <navigator url="../apply/apply">立即报名</navigator>
+      </view>
+    </view>
+
+    <view class="course-item">
+      <image src="../../image/bg-h5.jpeg" mode="aspectFit"></image>
+      <view class="btn">
+        <navigator>
+          <button open-type="contact">课程详情</button>
+        </navigator>
+        <navigator url="../apply/apply">立即报名</navigator>
+      </view>
+    </view>
+
+    <view class="course-item">
+      <image src="../../image/bg-java.jpeg" mode="aspectFit"></image>
+      <view class="btn">
+        <navigator>
+          <button open-type="contact">课程详情</button>
+        </navigator>
+        <navigator url="../apply/apply">立即报名</navigator>
+      </view>
+    </view>
+
+    <view class="course-item">
+      <image src="../../image/bg-go.jpeg" mode="aspectFit"></image>
+      <view class="btn">
+        <navigator>
+          <button open-type="contact">课程详情</button>
+        </navigator>
+        <navigator url="../apply/apply">立即报名</navigator>
+      </view>
+    </view>
+
+  </view>
+</view>
